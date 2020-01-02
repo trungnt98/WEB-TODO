@@ -199,15 +199,14 @@ img {
     visibility: hidden;
 }
 
-.checkDone input[type="checkbox"]:checked+label {
+input.taskDone , label.taskDone {
     background-color: #66bb6a;
     border-color: #66bb6a;
 }
 
-.checkDone input[type="checkbox"]:checked+label:after {
+input.taskDone , label.taskDone:after {
     opacity: 1;
 }
-
 .taskDone {
     text-decoration: line-through;
 }
