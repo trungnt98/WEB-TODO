@@ -8,6 +8,7 @@ var trash = document.getElementsByClassName('btnTrash');
 var header = document.getElementById('header');
 var date = document.getElementById("date");
 var listTasks = [];
+<<<<<<< HEAD
 const loading = document.getElementById('loading');
 // ---------------------------- Vùng hàm ------------------------ //
 
@@ -15,6 +16,10 @@ window.onload = () => {
     loading.style.display = "none";
 }
 
+=======
+
+// ---------------------------- Vùng hàm ------------------------ //
+>>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 
 // Lấy ngày tháng
 ngaythang = () => {
