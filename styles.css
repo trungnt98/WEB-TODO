@@ -12,8 +12,6 @@ input {
     border-radius: 4px;
 }
 
-<<<<<<< HEAD
-=======
 button:focus {
     outline : none ;
 }
@@ -23,7 +21,6 @@ img {
     max-height: 100%;
 }
 
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 .justify-content-center {
     justify-content: center;
 }
@@ -47,34 +44,15 @@ img {
     flex-direction: row;
 }
 
-<<<<<<< HEAD
-#container {
-    display: flex;
-    justify-content: center;
-
-=======
 .container {
     min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 }
  
 #app{
     filter: drop-shadow(0px 0px 6px #000000);
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-#header {
-    width: 25rem;
-    margin-top: 2%;
-    color: white;
-=======
     position: absolute;
     display : flex;
     flex-direction: column;
@@ -89,22 +67,12 @@ img {
     align-self: center;
     color: white;
     flex-grow: 1;
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: url('./asset/img/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column ;
-}
-
-#date {
-    padding: 5px;
-    text-align: center;
-=======
 }
 
 #header::before {
@@ -121,24 +89,12 @@ img {
     flex-direction: column;
     text-align: center;
     flex-grow: 1;
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 }
 
 .font-weight-bold {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-#task {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#task button {
-    box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.8);
-=======
 .newTask {
     display: flex;
     flex-direction: column;
@@ -158,16 +114,11 @@ img {
     position: relative;
     display: inline-block;
     cursor: pointer;
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
     border-radius: 3px;
     padding: 0px 10px 0px 10px;
     border: none;
     background: rgb(8, 167, 8);
     color: white;
-<<<<<<< HEAD
-    cursor: pointer;
-=======
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 }
 
 .content {
@@ -258,17 +209,4 @@ input.taskDone , label.taskDone:after {
 }
 .taskDone {
     text-decoration: line-through;
-<<<<<<< HEAD
-}
-
-#loading {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(249, 249, 249);
-=======
->>>>>>> a63b59cb5f3431fc9f4ca676dbd0c4049a99c7f9
 }
